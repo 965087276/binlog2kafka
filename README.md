@@ -10,16 +10,20 @@
     "head": {
         "binlog_file": "file_name",
         "binlog_pos": "pos",
-        // 数据库名
+        
+        "注": "数据库名",
         "db": "database_name", 
-        // 数据表名
+        
+        "注": "数据表名",
         "table": "table_name",
-        // 取值为INSERT、UPDATE或DELETE
+        
+        "注": "取值为INSERT、UPDATE或DELETE",
         "type": "event_type", 
+        
         "ctime": "time",
         "exec_time": "time"
     },
-    // 下面是数据表的各个字段
+    "注": "下面是数据表的各个字段",
     "column1": "value1",
     "column2": "value2",
     "column3": "value3"
